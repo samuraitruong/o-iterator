@@ -22,7 +22,7 @@ deploy:
     email: "samuraitruong@hotmail.com"
     api_key: "$(NPMTOKEN)"
     on:
-      tags: true
+      tags: false
       branch: master
   
 # notifications:
