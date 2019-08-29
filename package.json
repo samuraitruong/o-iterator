@@ -1,6 +1,6 @@
 {
   "name": "o-iterator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An simple iterator throw complete object",
   "main": "dist/index.js",
   "scripts": {
