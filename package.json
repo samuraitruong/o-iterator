@@ -4,7 +4,7 @@
   "description": "An simple iterator throw complete object",
   "main": "dist/index.js",
   "scripts": {
-    "lint": "tslint --fix .",
+    "lint": "tslint --fix  -p .",
     "build": "tsc",
     "test": "mocha test/*.test.ts"
   },

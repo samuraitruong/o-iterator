@@ -1,4 +1,5 @@
-export function iterate(data : any, paths : string[], parents : any[], callback : (data : any, currentValue : any, paths : string[], decendantData : any[]) => void) {
+// tslint:disable-next-line:max-line-length
+export function iterate(data: any, paths: string[], parents: any[], callback: (data: any, currentValue: any, paths: string[], decendantData: any[]) => void) {
     if (data == null) {
         return;
     }
