@@ -20,7 +20,7 @@ before_deploy:
 deploy:
   - provider: npm
     email: "samuraitruong@hotmail.com"
-    api_key: "$(NPMTOKEN)"
+    api_key: $NPMTOKEN
     on:
       tags: false
       branch: master
